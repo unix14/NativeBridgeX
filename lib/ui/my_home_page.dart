@@ -2,10 +2,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:native_bridge/native_bridge/bridge/native_bridge_x.dart';
 
-import '../native_bridge/logic/native_bridge_type.dart';
-import '../native_bridge/logic/native_method_type.dart';
+import '../native_bridge_x/bridge/native_bridge_x.dart';
+import '../native_bridge_x/logic/native_bridge_type.dart';
+import '../native_bridge_x/logic/native_method_type.dart';
 
 class MyHomePage extends StatefulWidget {
 

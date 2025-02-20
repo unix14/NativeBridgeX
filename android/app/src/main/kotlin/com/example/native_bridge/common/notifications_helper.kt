@@ -1,4 +1,4 @@
-package com.example.native_bridge.common
+package com.example.native_bridge_x.common
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,8 +9,8 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import android.util.Log
 import android.app.Notification
-import com.example.native_bridge.MainActivity
-import com.example.native_bridge.R
+import com.example.native_bridge_x.MainActivity
+import com.example.native_bridge_x.R
 
 fun sendNotification(context: Context, id: String, title: String, text: String) {
     try {

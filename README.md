@@ -30,7 +30,7 @@ flutter run
 To use the NativeBridgeX library, you need to call the appropriate methods from your Dart code. Here's an example of how you can send a push notification:
 
 ```dart
-import 'package:native_bridge/native_bridge.dart';
+import 'package:native_bridge_x/native_bridge_x.dart';
 
 void main() {
   NativeBridgeX.build(NativeBridgeType.MAIN_ACTIVITY).invokeMethod(NativeMethodType.sendNotification(id: '1', title: 'Hello', text: 'This is a test notification'));
@@ -41,7 +41,7 @@ void main() {
 
 In order to create a custom and new native method to be executed from native and called from Flutter we first need to do the following:
 
-First, we need to add CUSTOM to the NativeBridgeType enum in native_bridge_type.dart:
+First, we need to add CUSTOM to the NativeBridgeType enum in native_bridge_x_type.dart:
 ```dart
 enum NativeBridgeType { GENERAL, MAIN_ACTIVITY, CUSTOM, NEW_CUSTOM_CHANNEL }
 ```

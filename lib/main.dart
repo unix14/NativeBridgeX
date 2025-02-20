@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:native_bridge/ui/my_home_page.dart';
+import 'ui/my_home_page.dart';
 
 void main() {
   runApp(const MyApp());

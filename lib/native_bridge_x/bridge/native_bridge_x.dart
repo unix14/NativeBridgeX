@@ -17,7 +17,7 @@ class NativeBridgeX {
   }
 
   NativeBridgeX({required this.channelNameSuffix}) :
-        _nativeBridgeHandler = NativeBridgeHandler('com.example.native_bridge/$channelNameSuffix');
+        _nativeBridgeHandler = NativeBridgeHandler('com.example.native_bridge_x/$channelNameSuffix');
 
   @nonVirtual
   Future<int> callNativeMethod(String methodName, Map<String, dynamic> arguments) async {

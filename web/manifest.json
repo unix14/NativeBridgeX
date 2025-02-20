@@ -1,6 +1,6 @@
 {
-    "name": "native_bridge",
-    "short_name": "native_bridge",
+    "name": "native_bridge_x",
+    "short_name": "native_bridge_x",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

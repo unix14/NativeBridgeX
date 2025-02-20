@@ -10,7 +10,7 @@ import Foundation
 
 class GeneralConstants {
 
-    static let AppBundle = "com.example.native_bridge/"
+    static let AppBundle = "com.example.native_bridge_x/"
 
     static let FlutterMethodChannelGeneral = "general"
     static let FlutterMethodChannelMainActivity = "mainActivity"

@@ -1,4 +1,4 @@
-package com.example.native_bridge
+package com.example.native_bridge_x
 
 import android.app.Activity
 import android.app.Application
@@ -19,8 +19,8 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugins.GeneratedPluginRegistrant
 
-import com.example.native_bridge.common.Constants
-import com.example.native_bridge.common.sendNotification
+import com.example.native_bridge_x.common.Constants
+import com.example.native_bridge_x.common.sendNotification
 
 class MainActivity: FlutterActivity() {
 
