@@ -13,11 +13,11 @@ class NativeBridgeX {
   NativeBridgeHandler _nativeBridgeHandler;
 
   static NativeBridgeX build(NativeBridgeType nativeBridgeType) {
-    return NativeBridgeX(channelNameSuffix: nativeBridgeType.name);
+    return NativeBridgeX(channelNameSuffix: nativeBridgeType.getCustomChannelName("channelName"));
   }
 
   NativeBridgeX({required this.channelNameSuffix}) :
-        _nativeBridgeHandler = NativeBridgeHandler('com.example.native_bridge_x/$channelNameSuffix');
+        _nativeBridgeHandler = NativeBridgeHandler('com.example.src/$channelNameSuffix');
 
   @nonVirtual
   Future<int> callNativeMethod(String methodName, Map<String, dynamic> arguments) async {

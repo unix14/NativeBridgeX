@@ -3,19 +3,19 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import '../native_bridge_x/bridge/native_bridge_x.dart';
-import '../native_bridge_x/logic/native_bridge_type.dart';
-import '../native_bridge_x/logic/native_method_type.dart';
+import 'package:native_bridge_x/src/bridge/native_bridge_x.dart';
+import 'package:native_bridge_x/src/logic/native_bridge_type.dart';
+import 'package:native_bridge_x/src/logic/native_method_type.dart';
 
-class MyHomePage extends StatefulWidget {
+class UiTestExamplePage extends StatefulWidget {
 
-  const MyHomePage({super.key});
+  const UiTestExamplePage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<UiTestExamplePage> createState() => _UiTestExamplePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _UiTestExamplePageState extends State<UiTestExamplePage> {
 
   late NativeBridgeX nativeBridge;
   bool isLoggedIn = false;
